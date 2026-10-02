@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, ShieldCheck, CheckCircle2 } from "lucide-react";
 import { AuditForm } from "@/components/forms/AuditForm";
 import { TrustBadges } from "@/components/sections/TrustBadges";
@@ -22,9 +23,20 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="min-h-screen">
-      {/* Hero Header */}
-      <section className="bg-gradient-to-b from-slate-900 via-sky-950 to-slate-900 py-16 text-white sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
+      {/* Hero Header with Surgical Background */}
+      <section className="relative overflow-hidden py-16 text-white sm:py-20">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/assets/images/main.jpg"
+            alt="Provider Billers Surgical Background"
+            fill
+            priority
+            className="object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/90 to-sky-950/80" />
+        </div>
+
+        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-500/10 px-3.5 py-1 text-xs font-semibold text-sky-300">
             <MapPin className="h-3.5 w-3.5 text-emerald-400" />
             <span>Richmond, Virginia Headquarters</span>
@@ -33,7 +45,7 @@ export default function ContactPage() {
           <h1 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-5xl">
             Contact Provider Billers
           </h1>
-          <p className="mt-4 text-base text-slate-300 sm:text-lg">
+          <p className="mt-4 text-base text-slate-200 sm:text-lg">
             Have questions regarding your practice’s denial rate, aged AR ledger, or clearinghouse connectivity? Connect directly with our executive RCM advisory team.
           </p>
         </div>
@@ -57,6 +69,22 @@ export default function ContactPage() {
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed">
                   Unlike large software conglomerates that put clinics through multi-tiered phone trees, Provider Billers assigns dedicated senior billing directors who understand your specialty.
                 </p>
+              </div>
+
+              {/* Real Human Team Photo Card */}
+              <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xs">
+                <div className="relative h-44 w-full">
+                  <Image
+                    src="/assets/images/who_we_are.jpg"
+                    alt="Provider Billers Clinical Team in Richmond VA"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
+                  <span className="absolute bottom-3 left-4 rounded-full bg-white/95 backdrop-blur-xs px-2.5 py-1 text-[11px] font-bold text-sky-950">
+                    Your Dedicated Richmond VA RCM Team
+                  </span>
+                </div>
               </div>
 
               {/* Direct Details */}

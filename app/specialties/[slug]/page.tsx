@@ -87,7 +87,9 @@ export default async function SpecialtyDetailPage({ params }: Props) {
   return (
     <main className="min-h-screen">
       <script
+        id={`specialty-schema-${specialty.slug}`}
         type="application/ld+json"
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(specialtyJsonLd) }}
       />
 

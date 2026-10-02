@@ -111,14 +111,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
-      <head>
+    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${jakarta.variable}`}>
+      <body suppressHydrationWarning className="min-h-screen flex flex-col font-sans text-slate-900 bg-white">
         <script
+          id="schema-org-jsonld"
           type="application/ld+json"
+          suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
-      <body className="min-h-screen flex flex-col font-sans text-slate-900 bg-white">
         <Navbar />
         <div className="flex-1">{children}</div>
         <Footer />

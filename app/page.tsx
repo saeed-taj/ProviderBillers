@@ -18,7 +18,9 @@ import {
 } from "lucide-react";
 import { Hero } from "@/components/sections/Hero";
 import { TrustBadges } from "@/components/sections/TrustBadges";
+import { WhoWeServe } from "@/components/sections/WhoWeServe";
 import { ArCalculator } from "@/components/sections/ArCalculator";
+import { HumanTeamExperience } from "@/components/sections/HumanTeamExperience";
 import { ValueProp } from "@/components/sections/ValueProp";
 import { AuditForm } from "@/components/forms/AuditForm";
 import servicesData from "@/data/services.json";
@@ -65,7 +67,10 @@ export default function HomePage() {
       {/* 2. Trust Credentials & EHR Integration Row */}
       <TrustBadges />
 
-      {/* 3. Lost Revenue Estimator (Interactive ArCalculator) */}
+      {/* 3. Who We Serve Across US Healthcare */}
+      <WhoWeServe />
+
+      {/* 4. Lost Revenue Estimator (Interactive ArCalculator) */}
       <section id="ar-calculator" className="py-20 bg-slate-50 scroll-mt-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
@@ -86,7 +91,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. Value Proposition & Comparison Grid */}
+      {/* 5. Human Healthcare Team & Interactive Card Flips */}
+      <HumanTeamExperience />
+
+      {/* 6. Value Proposition & Comparison Grid */}
       <ValueProp />
 
       {/* 5. Core RCM Services Grid */}

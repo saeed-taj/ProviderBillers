@@ -48,12 +48,12 @@ export function Footer() {
           {/* Brand & Contact Column */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-block">
-              <div className="relative h-12 w-48 brightness-0 invert">
+              <div className="relative h-12 w-52 rounded-xl bg-white p-2 shadow-xs border border-slate-700">
                 <Image
                   src="/logo.png"
                   alt="Provider Billers LLC"
                   fill
-                  className="object-contain object-left"
+                  className="object-contain p-1"
                 />
               </div>
             </Link>
