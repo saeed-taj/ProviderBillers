@@ -1,0 +1,384 @@
+[
+  {
+    "slug": "podiatry",
+    "name": "Podiatry & Foot Surgery",
+    "shortName": "Podiatry",
+    "tagline": "Eliminate Routine Foot Care Denials & Modifier-25 Audits",
+    "summary": "Podiatric billing is fraught with strict Medicare Local Coverage Determinations (LCDs), routine foot care statutory exclusions, and aggressive clawbacks on Modifier-25 and Q-modifiers. Provider Billers eliminates non-covered denials and accelerates surgical procedure reimbursements.",
+    "denialRateNational": "14.2%",
+    "avgDaysInArTarget": "26 Days",
+    "denialHotspots": [
+      "CMS statutory exclusion denials for routine foot care (PR-204) without qualifying systemic metabolic disease documentation",
+      "Modifier-25 bundle rejections on same-day E/M visits alongside nail debridement or mycotic nail trimming",
+      "Missing or invalid class findings (Q7, Q8, Q9) and absence of attending MD NPI on diabetic nail care claims",
+      "Pre-authorization lapses on advanced wound care biologics and synthetic skin substitutes (Q4100 series)"
+    ],
+    "keyCptCodes": [
+      {
+        "code": "11055",
+        "description": "Paring or cutting of benign hyperkeratotic lesion (eg, corn, callus); single lesion",
+        "denialTrap": "Denied as routine care unless backed by documentation of severe peripheral vascular disease or diabetes with qualifying class findings.",
+        "complianceFix": "Automate verification of systemic qualifying conditions and attach mandatory Q7/Q8/Q9 modifiers with referring physician NPI."
+      },
+      {
+        "code": "11721",
+        "description": "Debridement of nails, any method(s); 6 or more",
+        "denialTrap": "Frequently downcoded or bundled with evaluation visits under Medicare LCDs when billed more often than once every 60 days.",
+        "complianceFix": "Enforce strict 61-day date-of-service rules and ensure secondary ICD-10 diagnosis (e.g., onychomycosis L60.2 with pain) is documented."
+      },
+      {
+        "code": "28285",
+        "description": "Correction, hammertoe (eg, interphalangeal fusion, phalangectomy)",
+        "denialTrap": "Denied for missing anatomical digit modifiers (T1-T9, TA) or bundled with bunionectomies without appropriate unbundling modifiers.",
+        "complianceFix": "Append exact digit modifiers and verify bundling edits against NCCI mutually exclusive column pairs."
+      },
+      {
+        "code": "99213 / 99214",
+        "description": "Office or other outpatient visit for established patient with separate procedure",
+        "denialTrap": "Automatic payer pre-payment audit or immediate denial when billed with same-day minor surgical procedures.",
+        "complianceFix": "Ensure distinct documentation demonstrating a significant, separately identifiable medical decision (Modifier-25 compliant)."
+      }
+    ],
+    "modifiers": [
+      {
+        "code": "Modifier -25",
+        "rule": "Mandatory when billing an E/M visit on the same day as nail debridement (11721) or lesion excision (11055); must document independent medical necessity."
+      },
+      {
+        "code": "Modifier -Q7 / -Q8 / -Q9",
+        "rule": "Identifies specific class findings (absence of pulses, skin changes) required by Medicare contractors to reimburse routine foot care."
+      },
+      {
+        "code": "Modifier -59 / -XS",
+        "rule": "Used to bill separate anatomical anatomical sites (e.g. separate toe surgery during same operative session) to bypass NCCI edits."
+      }
+    ],
+    "recoveryStrategy": "We audit your last 90 days of EOBs, identify all misapplied routine exclusions, re-attach compliant ICD-10 systemic indicators with attending MD dates of last visit, and appeal past write-offs to recapture lost clinic revenue.",
+    "faqs": [
+      {
+        "q": "How do you overturn Medicare denials for nail debridement (CPT 11721)?",
+        "a": "Medicare requires specific systemic diseases (e.g., peripheral neuropathy, diabetes mellitus) accompanied by severe clinical indicators. We configure your billing scrubbers to verify the 60-day interval rule and require documented class findings before electronic submission."
+      },
+      {
+        "q": "Can we bill an office visit (99213/99214) with an in-office injection or wart excision?",
+        "a": "Yes, provided the documentation clearly reflects an evaluation beyond the typical pre-procedure work. We train your staff on Modifier-25 clinical separation to withstand payer audits."
+      }
+    ]
+  },
+  {
+    "slug": "cardiology",
+    "name": "Cardiology & Interventional Care",
+    "shortName": "Cardiology",
+    "tagline": "Overcome Echo, Stress Test & Imaging Denials with Prior Auth Precision",
+    "summary": "Cardiology billing demands flawless handling of professional vs. technical split billing (Modifiers 26/TC), strict medical necessity algorithms for diagnostic imaging, and rapid prior authorization turnaround for invasive catheterization and cardiac PET/SPECT.",
+    "denialRateNational": "15.8%",
+    "avgDaysInArTarget": "27 Days",
+    "denialHotspots": [
+      "Diagnostic cardiac ultrasound (93306) denied for non-covered secondary ICD-10 indications or lack of documented symptoms",
+      "Failure to split professional and technical components (26 vs. TC) across hospital-affiliated vs. private lab settings",
+      "Nuclear SPECT/PET stress test denials due to missing peer-to-peer authorization or unverified tracer HCPCS codes (A9500)",
+      "Denied telemetry monitoring (93228/93229) exceeding standard duration limits without documented arrhythmia recurrence"
+    ],
+    "keyCptCodes": [
+      {
+        "code": "93000",
+        "description": "Electrocardiogram, routine ECG with at least 12 leads; with interpretation and report",
+        "denialTrap": "Denied when billed during the same encounter as a cardiac consult or stress test without separate clinical rationale.",
+        "complianceFix": "Audit whether the clinic owns the ECG machine (global 93000) or only performed interpretation (93010) in an outpatient facility."
+      },
+      {
+        "code": "93306",
+        "description": "Echocardiography, transthoracic, real-time with image documentation (2D), includes M-mode, spectral & color Doppler",
+        "denialTrap": "Payers frequently deny 93306 claiming routine surveillance is non-covered without documented murmurs, palpitations, or heart failure.",
+        "complianceFix": "Implement clinical decision support scrubbers validating primary ICD-10 codes (I50.9, R01.1, I48.91) before claim dispatch."
+      },
+      {
+        "code": "93015",
+        "description": "Cardiovascular stress test using maximal or submaximal treadmill or bicycle; with continuous ECG and physician supervision",
+        "denialTrap": "Rejected when split across multiple entities without clear breakdown of supervision (-26) and facility tracer usage.",
+        "complianceFix": "Accurately parse global vs. component billing based on location of service (POS 11 vs. POS 22)."
+      },
+      {
+        "code": "93458",
+        "description": "Left heart catheterization including intraprocedural coronary angiography and left ventriculography",
+        "denialTrap": "Denied for missing prior authorization reference numbers or lack of documented hemodynamic measurement logs in operative notes.",
+        "complianceFix": "Reconcile authorization numbers with hospital pre-registration and submit clean operative summaries on first pass."
+      }
+    ],
+    "modifiers": [
+      {
+        "code": "Modifier -26",
+        "rule": "Professional component only; used when physician interprets cardiac studies performed at an outside imaging center or hospital."
+      },
+      {
+        "code": "Modifier -TC",
+        "rule": "Technical component only; covers equipment, technicians, and supplies when billed by an independent diagnostic testing facility."
+      },
+      {
+        "code": "Modifier -59 / -XU",
+        "rule": "Distinguishes distinct diagnostic services from surgical catheterizations performed during the same operative intervention."
+      }
+    ],
+    "recoveryStrategy": "Our team cross-references all cardiac imaging remits against payer-specific LCD guidelines, identifies missing 26/TC splits, and refiles zero-balance denials within 72 hours.",
+    "faqs": [
+      {
+        "q": "Why do commercial payers frequently reject our 93306 echo claims?",
+        "a": "Commercial carriers like UnitedHealthcare and Aetna utilize AIM Specialty Health or eviCore medical necessity algorithms. If the pre-service clinical notes lack documented chest pain, syncope, or ejection fraction metrics, denials trigger automatically. We capture pre-service data beforehand."
+      },
+      {
+        "q": "How do you recover aged cardiology AR (>90 days)?",
+        "a": "We assign senior RCM auditors to pull aged AR reports, run batch eligibility and timely filing appeals, and contact payer medical directors directly for retro-authorizations where allowed."
+      }
+    ]
+  },
+  {
+    "slug": "mental-health",
+    "name": "Mental & Behavioral Health",
+    "shortName": "Mental Health",
+    "tagline": "Master Time-Based Psychotherapy Billing & Session Unit Guardrails",
+    "summary": "Psychiatry and behavioral health clinics struggle with strict time-based psychotherapy coding rules, session frequency caps, interactive complexity billing, and evolving telehealth parity laws across commercial payers and Medicaid.",
+    "denialRateNational": "17.4%",
+    "avgDaysInArTarget": "24 Days",
+    "denialHotspots": [
+      "Psychotherapy claims denied for insufficient time documentation (e.g. failing to meet the CPT time midpoint rule)",
+      "Unbundled E/M med management (99213) with add-on psychotherapy (+90833) denied for lack of clinical separation",
+      "Telehealth place-of-service mismatch (POS 02 vs. POS 10) and missing audio-only or video modifiers (-95 / -FQ)",
+      "Exceeded annual session limits or missing outpatient treatment authorizations on commercial behavioral health carve-outs"
+    ],
+    "keyCptCodes": [
+      {
+        "code": "90834",
+        "description": "Psychotherapy, 45 minutes with patient (38-52 minutes documentation required)",
+        "denialTrap": "Denied or downcoded during payer audits if exact start and stop times or total session duration are omitted from progress notes.",
+        "complianceFix": "Enforce strict EHR templates that capture exact session duration and progress toward treatment plan goals."
+      },
+      {
+        "code": "90837",
+        "description": "Psychotherapy, 60 minutes with patient (53+ minutes documentation required)",
+        "denialTrap": "Heavily targeted by insurers (e.g., Optum, BCBS) with automated frequency audits and demand for clinical justification over 90834.",
+        "complianceFix": "Document clinical justification for extended session length (e.g., trauma processing, acute crisis de-escalation) on every claim."
+      },
+      {
+        "code": "+90833",
+        "description": "Psychotherapy, 30 minutes with patient, when performed with an evaluation and management service (List separately)",
+        "denialTrap": "Denied when billed alone or without a primary established patient E/M code (e.g., 99213 or 99214).",
+        "complianceFix": "Ensure dual-note documentation: separate paragraph for psychiatric somatic/med evaluation and separate section for psychotherapy technique."
+      },
+      {
+        "code": "+90785",
+        "description": "Interactive complexity (List separately in addition to code for primary service)",
+        "denialTrap": "Rejected when billed without meeting one of the four specific statutory communication barrier criteria (e.g. caregiver discord, translator, third-party involvement).",
+        "complianceFix": "Include the specific statutory reason in note templates to ensure bulletproof reimbursement."
+      }
+    ],
+    "modifiers": [
+      {
+        "code": "Modifier -95",
+        "rule": "Synchronous telemedicine service rendered via real-time interactive audio and video telecommunications system."
+      },
+      {
+        "code": "Modifier -FQ",
+        "rule": "Audio-only telehealth encounters; required by Medicare and certain commercial carriers when video technology is unavailable."
+      },
+      {
+        "code": "Modifier -AF / -AH",
+        "rule": "Provider specialty identifiers (Psychiatrist vs. Clinical Psychologist / Licensed Clinical Social Worker) required by state Medicaid programs."
+      }
+    ],
+    "recoveryStrategy": "We systematically verify carve-out behavioral health administrators (e.g., Magellan, Beacon, Optum Behavioral), audit session time logs, and recover historical write-offs caused by administrative POS mismatches.",
+    "faqs": [
+      {
+        "q": "Why does Optum or Blue Cross frequently audit our 90837 claims?",
+        "a": "Payers view 90837 as higher cost than 90834. They run automated outlier reports against regional peer averages. We safeguard your practice by validating medical necessity and ensuring start/stop timestamps are airtight."
+      },
+      {
+        "q": "How do you handle separate behavioral health carve-outs?",
+        "a": "Many medical insurance cards outsource mental health benefits to third-party carve-outs. Our front-end eligibility team checks exact behavioral claims addresses before billing to stop 30-day dead-ends."
+      }
+    ]
+  },
+  {
+    "slug": "orthopedics",
+    "name": "Orthopedic Surgery & Sports Medicine",
+    "shortName": "Orthopedics",
+    "tagline": "Protect High-Value Surgical Claims & Master Global Period Billing",
+    "summary": "Orthopedic surgery accounts for some of the highest-dollar claims in outpatient and inpatient medicine. Denials commonly stem from misunderstood 90-day global surgical packages, assistant surgeon modifiers, multiple procedure discounts, and unbundled DME supplies.",
+    "denialRateNational": "13.9%",
+    "avgDaysInArTarget": "29 Days",
+    "denialHotspots": [
+      "Post-operative E/M visits denied within the 90-day global surgical period without Modifier-24 or Modifier-79",
+      "Assistant at surgery claims (CPT -80 / -82 / -AS) rejected due to payer-specific surgical policy restrictions",
+      "Multiple arthroscopic procedures improperly unbundled or subject to aggressive 50% second-procedure reductions",
+      "Fracture care (e.g., 27244, 27506) denials when casting/splinting supplies (Q4000 series) are billed without separate identifiers"
+    ],
+    "keyCptCodes": [
+      {
+        "code": "29881",
+        "description": "Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving)",
+        "denialTrap": "Payers bundle debridement or synovectomy in the same compartment, denying secondary arthroscopy codes.",
+        "complianceFix": "Enforce anatomical modifiers (e.g., lateral vs. medial compartment) and verify NCCI mutually exclusive column guidelines."
+      },
+      {
+        "code": "27447",
+        "description": "Arthroplasty, knee, condyle and plateau; medical and lateral compartments with or without patella resurfacing (total knee arthroplasty)",
+        "denialTrap": "High-cost implant hardware denied when separate invoice documentation or specific HCPCS codes (C1776) are missing.",
+        "complianceFix": "Include detailed implant manufacturer logs and itemized cost reports in the initial submission packet."
+      },
+      {
+        "code": "20610",
+        "description": "Arthrocentesis, aspiration and/or injection, major joint or bursa (eg, shoulder, hip, knee, joint); without ultrasound guidance",
+        "denialTrap": "Denied when billed on the same day as an office visit without Modifier-25, or billed with ultrasound without code 20611.",
+        "complianceFix": "Ensure injection notes specify anatomical joint, medication dosage (J-codes), and separate reason for encounter."
+      },
+      {
+        "code": "29827",
+        "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair",
+        "denialTrap": "Billed alongside subacromial decompression (29826) without confirming whether payer requires an add-on code or distinct modifier.",
+        "complianceFix": "Cross-check annual AMA CPT updates regarding shoulder arthroscopy bundling conventions."
+      }
+    ],
+    "modifiers": [
+      {
+        "code": "Modifier -24",
+        "rule": "Unrelated evaluation and management service by the same physician during a post-operative period (e.g., patient seen for knee pain during shoulder 90-day global)."
+      },
+      {
+        "code": "Modifier -79",
+        "rule": "Unrelated procedure or service by the same physician during the post-operative period (e.g., emergency fracture reduction on contralateral limb)."
+      },
+      {
+        "code": "Modifier -80 / -AS",
+        "rule": "Assistant surgeon services: Modifier-80 for MD/DO assistants; Modifier-AS for Physician Assistants (PA) or Nurse Practitioners (NP)."
+      }
+    ],
+    "recoveryStrategy": "We perform granular operative note reviews to capture missed surgical components, appeal unbundled denials with operative reports highlighted by certified orthopedics coders, and recover trapped high-dollar surgical revenue.",
+    "faqs": [
+      {
+        "q": "How do you recover payment for visits during the 90-day global surgery period?",
+        "a": "When an established patient returns during the 90-day window for a new issue or unrelated trauma, payers deny by default. We scrub records to ensure Modifier-24 is paired with a distinct diagnosis code and medical narrative."
+      },
+      {
+        "q": "Can you collect unpaid DME (braces, splints, walkers) for our clinic?",
+        "a": "Yes. DME billing requires DMEPOS Medicare supplier numbers, proof of delivery certificates, and specific HCPCS codes. We eliminate DME write-offs through front-end documentation checklists."
+      }
+    ]
+  },
+  {
+    "slug": "family-practice",
+    "name": "Family Practice & Internal Medicine",
+    "shortName": "Family Practice",
+    "tagline": "Master Preventive vs. Problem-Oriented Splitting & Medicare AWVs",
+    "summary": "Primary care clinics balance high patient volumes with razor-thin margins. The number one source of lost revenue is failure to properly bill same-day problem visits during preventive physicals, missed Chronic Care Management (CCM), and unbilled Medicare Annual Wellness Visits (AWV).",
+    "denialRateNational": "11.6%",
+    "avgDaysInArTarget": "25 Days",
+    "denialHotspots": [
+      "Patient surprise bills and commercial denials when combining routine preventive physicals (99395/99396) with acute illness care (99214)",
+      "Medicare Annual Wellness Visits (G0438 / G0439) rejected due to incorrect eligibility timing (billed within 365 days of previous AWV)",
+      "Denial of in-office laboratory testing (CLIA-waived tests like 81002, 87880) for missing Modifier-QW",
+      "Uncaptured Chronic Care Management (99490) and Principal Care Management reimbursement due to time tracking gaps"
+    ],
+    "keyCptCodes": [
+      {
+        "code": "99214",
+        "description": "Office or other outpatient visit for established patient, moderate medical decision making (30-39 minutes)",
+        "denialTrap": "Downcoded to 99213 by commercial algorithmic scrubbers when documentation lacks moderate prescription drug management.",
+        "complianceFix": "Align documentation with 2021/2023 AMA E/M guidelines emphasizing Medical Decision Making (MDM) complexity."
+      },
+      {
+        "code": "G0438 / G0439",
+        "description": "Annual wellness visit; includes a personalized prevention plan of service (PPS), initial (G0438) or subsequent (G0439)",
+        "denialTrap": "Denied for frequency if submitted 1 day before the exact 12-month anniversary of the patient's prior wellness check.",
+        "complianceFix": "Integrate real-time Medicare HETS/Noridian eligibility verification directly into the scheduling workflow."
+      },
+      {
+        "code": "99396",
+        "description": "Periodic comprehensive preventive medicine reevaluation and management, established patient; 40-64 years",
+        "denialTrap": "Denied by commercial insurers when combined with 99213/99214 without clinical evidence of two distinct services.",
+        "complianceFix": "Split chart notes cleanly: Section 1 for age-appropriate screening, Section 2 with Modifier-25 addressing chronic condition exacerbations."
+      },
+      {
+        "code": "99490",
+        "description": "Chronic care management services with at least 20 minutes of clinical staff time per calendar month",
+        "denialTrap": "Denied for missing signed patient consent forms or unverified chronic disease qualifications (2 or more expected to last 12+ months).",
+        "complianceFix": "Establish care management logs tracking cumulative clinical staff minutes and automated monthly batch billing."
+      }
+    ],
+    "modifiers": [
+      {
+        "code": "Modifier -25",
+        "rule": "Crucial for primary care to capture revenue when a patient presenting for a physical also requires treatment for uncontrolled hypertension or diabetes."
+      },
+      {
+        "code": "Modifier -QW",
+        "rule": "Mandatory for CLIA-waived in-office laboratory tests (rapid strep, urinalysis, influenza, Covid-19 antigen) to prevent immediate claims rejection."
+      },
+      {
+        "code": "Modifier -33",
+        "rule": "Identifies ACA preventive services billed without patient cost-sharing (co-pay / deductible)."
+      }
+    ],
+    "recoveryStrategy": "We audit 6 months of your E/M bell curve, identify under-coded 99213 visits that met 99214 criteria, recover rejected AWVs, and establish a recurring revenue pipeline for chronic care management.",
+    "faqs": [
+      {
+        "q": "Can our doctors legitimately bill both an annual physical (99395) and an office visit (99214) on the same day?",
+        "a": "Absolutely. Under AMA guidelines and CMS rules, when a patient presents for a preventive exam and an acute or chronic condition requires significant additional medical decision-making, both are reimbursable with Modifier-25."
+      },
+      {
+        "q": "Why do our in-office rapid strep and urinalysis tests get rejected by Medicare?",
+        "a": "CLIA-waived tests must include Modifier-QW and the clinic's CLIA certificate number in box 23 of the CMS-1500 form. We ensure every claim scrubber enforces this rule."
+      }
+    ]
+  },
+  {
+    "slug": "neurology",
+    "name": "Neurology & Neuromuscular Medicine",
+    "shortName": "Neurology",
+    "tagline": "Optimize EEG, EMG/NCS & Complex Chronic Neurological Care",
+    "summary": "Neurology practices face complex billing challenges encompassing prolonged EEG monitoring, nerve conduction studies (NCS) combined with needle electromyography (EMG), and high-cost botulinum toxin injections for chronic migraine or spasticity.",
+    "denialRateNational": "16.1%",
+    "avgDaysInArTarget": "28 Days",
+    "denialHotspots": [
+      "EMG/NCS claims denied when nerve conduction studies exceed payer clinical threshold limits without documented radiculopathy",
+      "Botox (J0585) injections denied for missing discarded waste documentation (Modifier -JW) or unverified FDA diagnostic indications",
+      "Routine video EEG monitoring (95700 series) rejected due to pre-authorization discrepancies with regional payers",
+      "Prolonged outpatient visit codes (+99417) denied for lack of continuous time tracking in E/M documentation"
+    ],
+    "keyCptCodes": [
+      {
+        "code": "95910",
+        "description": "Nerve conduction studies; 7-8 studies",
+        "denialTrap": "Payers bundle studies or deny as medically unnecessary without precise limb-by-limb clinical rationale.",
+        "complianceFix": "Enforce strict anatomical mapping and medical record attachment demonstrating neuromuscular diagnostic criteria."
+      },
+      {
+        "code": "95886",
+        "description": "Needle electromyography, each extremity, with related paraspinal areas; complete",
+        "denialTrap": "Denied when billed without an accompanying nerve conduction base code (95907-95913).",
+        "complianceFix": "Configure automated charge scrubbing linking add-on EMG codes directly to the qualifying NCS service."
+      },
+      {
+        "code": "64615",
+        "description": "Chemodenervation of muscle(s); facial and neck muscles for chronic migraine (Botox)",
+        "denialTrap": "Denied if medical record fails to prove trial of at least 2 oral prophylactic migraine medications.",
+        "complianceFix": "Verify prior authorization approvals and bill exact injection units alongside J0585 and JW modifier for wasted units."
+      }
+    ],
+    "modifiers": [
+      {
+        "code": "Modifier -JW / -JZ",
+        "rule": "Mandatory CMS reporting for single-dose vial drug waste (JW) or zero waste (JZ) on high-cost biologics like Botox."
+      },
+      {
+        "code": "Modifier -26",
+        "rule": "Used for professional interpretation of hospital or remote continuous EEG monitoring."
+      }
+    ],
+    "recoveryStrategy": "We audit high-volume electrodiagnostic claims against Medicare LCD frequency limits, recover unpaid biologic injections, and streamline prior authorizations for advanced migraine therapies.",
+    "faqs": [
+      {
+        "q": "How do we prevent Botox denials for chronic migraine?",
+        "a": "Payers require precise documentation: 15+ headache days per month (at least 8 migraine days), documented failure of oral preventatives, and accurate J0585 unit calculation. We verify authorization before the vial is opened."
+      }
+    ]
+  }
+]

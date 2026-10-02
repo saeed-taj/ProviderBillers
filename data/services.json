@@ -1,0 +1,359 @@
+[
+  {
+    "slug": "revenue-cycle-management",
+    "title": "End-to-End Revenue Cycle Management",
+    "shortTitle": "Full RCM",
+    "heroHeadline": "Transform Practice Cash Flow from Patient Intake to Final Payment Posting",
+    "summary": "Provider Billers delivers full-lifecycle RCM engineered for independent practices and specialty surgical groups. We eliminate administrative drag, scrub claims to a 98%+ first-pass clean rate, and drive days in AR below 28 days.",
+    "icon": "Activity",
+    "badge": "Flagship Service",
+    "keyMetrics": [
+      { "label": "First-Pass Clean Claim Rate", "value": "98.4%" },
+      { "label": "Average Days in AR", "value": "<28 Days" },
+      { "label": "Denial Resolution Turnaround", "value": "48 Hours" }
+    ],
+    "painPoints": [
+      "In-house billing staff turnover leading to unsubmitted claims and timely filing write-offs",
+      "Payer rule changes causing unexpected surges in E/M and surgical claim denials",
+      "Lack of real-time visibility into collection rates and net revenue realization",
+      "Delayed payment posting resulting in distorted patient billing and inaccurate AR reports"
+    ],
+    "deliverables": [
+      "Comprehensive Charge Capture & Demographics Entry within 24 hours of encounter",
+      "Certified CPT/ICD-10 Coding Review & NCCI Edit Automated Pre-Scrubbing",
+      "Electronic Claims Clearinghouse Submission with secondary & tertiary crossover management",
+      "Daily Electronic Remittance Advice (ERA) and manual EOB payment posting with line-item reconciliation",
+      "Patient Statements, balance questions handling, and soft-touch collection workflows",
+      "Monthly Executive Financial Analytics & Denial Root-Cause Dashboards"
+    ],
+    "workflowSteps": [
+      {
+        "step": "01",
+        "title": "Front-End Scrubbing",
+        "desc": "Real-time insurance eligibility checks, authorization cross-checks, and demographic verification before claim generation."
+      },
+      {
+        "step": "02",
+        "title": "Coding & Charge Audit",
+        "desc": "Dual review by AAPC-certified coders to ensure accurate CPT, ICD-10, and modifier pairing matching clinical documentation."
+      },
+      {
+        "step": "03",
+        "title": "Electronic Dispatch & Tracking",
+        "desc": "Claims dispatched through top-tier clearinghouses (Change Healthcare, Availity, Waystar) with Level 1 & Level 2 validation."
+      },
+      {
+        "step": "04",
+        "title": "Denial Triage & Payment Posting",
+        "desc": "Payments posted within 24 hours; any non-paid line is immediately routed into specialized appeals queues."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which EHR and Practice Management systems do you work with?",
+        "a": "We operate seamlessly across all major US EHRs including Epic, AthenaHealth, eClinicalWorks, Kareo/Tebra, AdvancedMD, ModMed, NextGen, DrChrono, Allscripts/Veradigm, and Kareo. We work directly inside your system so you retain 100% data ownership."
+      },
+      {
+        "q": "What is your pricing structure for full RCM?",
+        "a": "We operate on a transparent percentage-of-collections model (typically 3.5% to 6.5% depending on specialty volume and complexity). If you don't get paid, we don't get paid—aligning our incentives with your practice's profitability."
+      }
+    ]
+  },
+  {
+    "slug": "aged-ar-recovery",
+    "title": "Contingency-Based Aged AR Recovery (>90 Days)",
+    "shortTitle": "Aged AR Recovery",
+    "heroHeadline": "Zero Upfront Cost. We Only Get Paid When You Collect Trapped Revenue.",
+    "summary": "Stale accounts receivable older than 90, 120, or 365 days represent massive lost profit for private practices. Our dedicated SWAT team of aged AR recovery specialists investigates, appeals, and liquidates aging balances on a strict contingency basis.",
+    "icon": "RotateCcw",
+    "badge": "100% Contingency ($0 Upfront)",
+    "keyMetrics": [
+      { "label": "Upfront Cost to Practice", "value": "$0" },
+      { "label": "Average Recovery Rate on >90d AR", "value": "64.2%" },
+      { "label": "Historical Timely Filing Overturn Rate", "value": "81%" }
+    ],
+    "painPoints": [
+      "Thousands of uncollected dollars aging off the books past payer timely filing limits",
+      "In-house staff prioritizing easy current claims while old complex denials gather dust",
+      "Payer 'ghost denials' where claims were lost in clearinghouses with no formal remit issued",
+      "Unpaid patient deductibles that clinics are hesitant or unable to collect efficiently"
+    ],
+    "deliverables": [
+      "Comprehensive AR Aging Ledger Forensic Audit categorizing balances by age, payer, and denial reason",
+      "Clearinghouse proof-of-timely-submission retrieval to overturn timely filing deadline denials",
+      "Direct payer claims representative escalation and medical director review requests",
+      "Identification of systemic payer underpayments against contracted fee schedule allowances",
+      "Re-submission of corrected claims and secondary/tertiary billing coordination",
+      "Zero disruption to your existing in-house team or current day billing operations"
+    ],
+    "workflowSteps": [
+      {
+        "step": "01",
+        "title": "No-Risk Data Extraction",
+        "desc": "We pull your current >90 day AR aging bucket directly from your EHR or via encrypted secure CSV export."
+      },
+      {
+        "step": "02",
+        "title": "Forensic Categorization",
+        "desc": "Our algorithms triage claims into recoverable tiers: timely filing re-submissions, authorization appeals, and payer underpayments."
+      },
+      {
+        "step": "03",
+        "title": "Aggressive Payer Pursuit",
+        "desc": "Our veteran recovery specialists call payer provider lines, submit Level 1 & 2 appeals with certified clinical attachments."
+      },
+      {
+        "step": "04",
+        "title": "Direct Practice Deposit",
+        "desc": "Insurance payments go directly into your bank account. You only pay our contingency fee after the funds are realized."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How does your contingency model work?",
+        "a": "You pay nothing upfront. Our compensation is a negotiated percentage of the actual cash we recover from claims that were previously written off or languishing past 90+ days. If we recover nothing, you owe nothing."
+      },
+      {
+        "q": "Can you recover claims that payers denied for 'Timely Filing Exceeded'?",
+        "a": "Yes. In the majority of timely filing denials, original electronic transmission records (EDI 277 CA acceptances) exist that prove the initial submission occurred within the payer's window. We obtain clearinghouse logs to overturn these wrongful denials."
+      }
+    ]
+  },
+  {
+    "slug": "denial-management",
+    "title": "Denial Management & Root-Cause Appeals",
+    "shortTitle": "Denial Management",
+    "heroHeadline": "Stop Repeat Denials at the Source & Recover Every Rightfully Owed Dollar",
+    "summary": "Over 65% of medical claim denials are never appealed by practices, leading to catastrophic revenue loss. Provider Billers deploys forensic CARC/RARC denial analytics and aggressive multi-level appeals to turn denials into paid remits.",
+    "icon": "ShieldAlert",
+    "badge": "High Impact",
+    "keyMetrics": [
+      { "label": "Appeals Win Rate", "value": "84.7%" },
+      { "label": "Denial Reroute SLA", "value": "<48 Hours" },
+      { "label": "Repeat Denial Reduction", "value": "72%" }
+    ],
+    "painPoints": [
+      "Payers employing automated artificial intelligence scrubbers to issue blanket downcodes and denials",
+      "Vague denial reason codes (CO-16, CO-45, PR-204) that in-house staff lack the time to investigate",
+      "Strict 30 to 60-day payer appeal windows slipping by unnoticed",
+      "Staff continually fixing symptoms without addressing front-end intake or coding mistakes"
+    ],
+    "deliverables": [
+      "Daily CARC/RARC denial categorization (Claim Adjustment Reason Codes / Remittance Advice Remark Codes)",
+      "Clinical Appeals drafted by certified medical coders and nurse reviewers",
+      "Peer-to-peer hearing preparation packets for physicians when prior authorization disputes arise",
+      "Payer contract non-compliance documentation and state insurance commissioner escalation when warranted",
+      "Root-cause feedback loop to your front-desk and clinical staff to eliminate recurring errors"
+    ],
+    "workflowSteps": [
+      {
+        "step": "01",
+        "title": "Automated Denial Intake",
+        "desc": "Daily electronic remit monitoring flags any non-zero patient balance or zero-payment claim line."
+      },
+      {
+        "step": "02",
+        "title": "Categorization & Policy Check",
+        "desc": "Denials matched against payer LCD/NCD coverage policies and medical necessity guidelines."
+      },
+      {
+        "step": "03",
+        "title": "Clinical Appeal Packet Assembly",
+        "desc": "Drafting customized, evidence-based appeal letters citing AMA CPT guidelines, clinical notes, and policy precedents."
+      },
+      {
+        "step": "04",
+        "title": "Continuous Payer Adjudication",
+        "desc": "Weekly status verification until payment is posted and claim is paid in full."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between a claim rejection and a claim denial?",
+        "a": "A rejection occurs at the clearinghouse before the payer processes the claim (e.g. invalid member ID format). A denial happens after the payer adjudicates the claim and decides not to pay. Rejections can be fixed instantly; denials require formal appeals."
+      },
+      {
+        "q": "How quickly do you respond when a high-dollar denial lands?",
+        "a": "Our standard service level agreement (SLA) requires every claim denial to be reviewed and assigned to an appeals specialist within 24 to 48 business hours."
+      }
+    ]
+  },
+  {
+    "slug": "medical-coding-auditing",
+    "title": "Medical Billing & Certified Coding Audits",
+    "shortTitle": "Coding & Auditing",
+    "heroHeadline": "AAPC & AHIMA Certified Precision to Protect Every CPT & ICD-10 Code",
+    "summary": "Coding errors cause both under-reimbursement (lost money) and audit liability (clawback risks). Our certified coders (CPC, COC, CPMA) review clinical charts to maximize legitimate revenue capture while ensuring strict OIG and CMS compliance.",
+    "icon": "FileCode2",
+    "badge": "AAPC Certified",
+    "keyMetrics": [
+      { "label": "Coding Accuracy Rate", "value": "99.1%" },
+      { "label": "Average E/M RVU Optimization", "value": "+14%" },
+      { "label": "Audit Compliance", "value": "100% OIG Aligned" }
+    ],
+    "painPoints": [
+      "Physicians under-coding out of fear of audits, leaving $20,000+ per provider annually on the table",
+      "Outdated CPT or ICD-10 coding templates that fail to capture 2021/2023 AMA E/M guideline updates",
+      "Misapplied surgical modifiers leading to unexpected global unbundling denials",
+      "Lack of clinical documentation improvement (CDI) training for mid-levels and new practitioners"
+    ],
+    "deliverables": [
+      "Chart-by-chart CPT, ICD-10-CM, and HCPCS Level II code assignment by credentialed specialists",
+      "Baseline 30-encounter provider documentation compliance audits with bell curve benchmarking",
+      "Modifier optimization (-25, -59, -X{EPSU}, -26/TC, -78, -79) backed by clinical evidence",
+      "Hierarchical Condition Category (HCC) risk adjustment coding for Medicare Advantage patients",
+      "Tailored provider documentation feedback sessions to reduce administrative burden on clinicians"
+    ],
+    "workflowSteps": [
+      {
+        "step": "01",
+        "title": "Documentation Ingestion",
+        "desc": "Direct secure access to provider progress notes, operative reports, and discharge summaries in your EHR."
+      },
+      {
+        "step": "02",
+        "title": "Certified Coder Review",
+        "desc": "AAPC-certified coder assigns precise codes reflecting full clinical complexity and medical decision making."
+      },
+      {
+        "step": "03",
+        "title": "Dual-Layer Scrubbing",
+        "desc": "Automated NCCI bundling and LCD validation to verify payer-specific rules before claim dispatch."
+      },
+      {
+        "step": "04",
+        "title": "Physician Education",
+        "desc": "Quarterly trend reports highlighting missed billing opportunities and clinical documentation enhancement tips."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are your coders certified in the United States?",
+        "a": "Yes. Our senior coding leadership and team members hold certifications from AAPC (CPC, CPMA, specialty credentials) and AHIMA (CCS), with continuous education on annual AMA and CMS guideline revisions."
+      },
+      {
+        "q": "Will you audit our charts before we commit to full billing services?",
+        "a": "Yes! We offer a Free 10-Claim Denial & Coding Audit so you can see exactly where your practice is leaving money on the table before making any operational changes."
+      }
+    ]
+  },
+  {
+    "slug": "provider-credentialing",
+    "title": "Provider Credentialing & Payer Contracting",
+    "shortTitle": "Credentialing",
+    "heroHeadline": "Accelerate Payer Enrollment & Prevent Costly Out-of-Network Billing Delays",
+    "summary": "Every month a new provider waits for commercial insurance or Medicare/Medicaid enrollment costs your practice an estimated $60,000 to $90,000 in unbillable revenue. Provider Billers speeds up enrollment and re-credentialing through relentless payer follow-up.",
+    "icon": "Award",
+    "badge": "Expedited Onboarding",
+    "keyMetrics": [
+      { "label": "Average Enrollment Acceleration", "value": "45-60 Days Saved" },
+      { "label": "CAQH Attestation Compliance", "value": "100% Up to Date" },
+      { "label": "Application Approval Rate", "value": "99.8%" }
+    ],
+    "painPoints": [
+      "New physician hires unable to bill insurance for 4 to 6 months due to stalled enrollment paperwork",
+      "Lapsed CAQH profiles or missed re-credentialing deadlines triggering sudden out-of-network status",
+      "Commercial payer panels closed to new providers without strategic appeal justification",
+      "Practices accepting unfavorable fee schedules without benchmarked rate negotiations"
+    ],
+    "deliverables": [
+      "Initial Provider Enrollment for Medicare (PECOS / CMS-855I), Medicaid, and commercial plans",
+      "CAQH ProView Profile setup, quarterly re-attestation, and document maintenance",
+      "Hospital and ambulatory surgery center (ASC) medical staff appointment management",
+      "National Provider Identifier (NPI Registry Type 1 & Type 2) registration and taxonomy updates",
+      "Payer contract fee schedule reviews and commercial contract re-negotiation assistance",
+      "Tracking of DEA licenses, state medical licenses, and malpractice insurance expirations"
+    ],
+    "workflowSteps": [
+      {
+        "step": "01",
+        "title": "Document Collection",
+        "desc": "We gather your CV, diplomas, state licenses, DEA, CDS, malpractice face sheets, and board certificates."
+      },
+      {
+        "step": "02",
+        "title": "CAQH & Payer Application",
+        "desc": "Complete preparation and electronic submission to Medicare, Medicaid, and targeted commercial carriers."
+      },
+      {
+        "step": "03",
+        "title": "Relentless Payer Pestering",
+        "desc": "Bi-weekly phone check-ins with credentialing committees to prevent applications from sitting in administrative limbo."
+      },
+      {
+        "step": "04",
+        "title": "Effective Date & Contract Execution",
+        "desc": "Securing countersigned provider agreements, effective billing dates, and linking NPIs to clinic billing tax IDs."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How long does medical credentialing typically take in the US?",
+        "a": "Commercial payers typically take 90 to 120 days, while Medicare takes 45 to 60 days via PECOS. Our proactive follow-up eliminates administrative stalling, shortening overall turnaround times significantly."
+      },
+      {
+        "q": "Can we bill retroactively for services rendered while waiting for credentialing?",
+        "a": "Medicare allows up to 30 days of retrospective billing from the date the application was submitted. Some commercial payers honor backdating if negotiated upfront. We guide you on the exact rules for your state and payer mix."
+      }
+    ]
+  },
+  {
+    "slug": "patient-intake-prior-authorization",
+    "title": "Front-Office Intake, Prior Auth & Healthcare BPO",
+    "shortTitle": "Front Office & Prior Auth",
+    "heroHeadline": "Fix Clean Claims Where They Start: Real-Time Eligibility & Prior Auth Clearing",
+    "summary": "Over 80% of claim denials originate at the front desk: invalid policy IDs, unverified deductibles, expired coverage, and unobtained prior authorizations. Our specialized healthcare front-office team secures pre-authorizations and verifies benefits before patients walk through the door.",
+    "icon": "Users",
+    "badge": "Front-End Defense",
+    "keyMetrics": [
+      { "label": "Prior Auth Approval Rate", "value": "97.6%" },
+      { "label": "Intake Eligibility Verification", "value": "100% Pre-Visit" },
+      { "label": "Front-End Denial Reduction", "value": "89%" }
+    ],
+    "painPoints": [
+      "Front desk staff overwhelmed by patient check-in and phone calls, skipping thorough insurance checks",
+      "Expensive surgical or diagnostic procedures performed without required prior authorizations",
+      "Patients blindsided by high out-of-pocket costs due to unverified high-deductible health plans (HDHPs)",
+      "Clinical staff spending 15+ hours weekly on hold with insurance companies for pre-approvals"
+    ],
+    "deliverables": [
+      "24/48-Hour Pre-Encounter Eligibility & Detailed Benefit Verification (copay, coinsurance, remaining deductible)",
+      "Dedicated Prior Authorization submission through CoverMyMeds, Availity, eviCore, AIM, and payer portals",
+      "Coordination of peer-to-peer physician reviews with compiled clinical chart packets",
+      "Patient estimation statements and pre-service co-pay/deductible collection guidance",
+      "Medical transcription and remote virtual scribing assistance to free up physician charting time"
+    ],
+    "workflowSteps": [
+      {
+        "step": "01",
+        "title": "Daily Schedule Pull",
+        "desc": "Our team accesses your schedule 48-72 hours in advance to run comprehensive 270/271 eligibility inquiries."
+      },
+      {
+        "step": "02",
+        "title": "Benefit Matrix Breakdown",
+        "desc": "Documenting exact patient financial liability, active primary/secondary status, and specific procedure coverage."
+      },
+      {
+        "step": "03",
+        "title": "Prior Auth Submission",
+        "desc": "Uploading clinical notes, diagnostic imaging, and letters of medical necessity into payer authorization portals."
+      },
+      {
+        "step": "04",
+        "title": "Approval Tracking & Integration",
+        "desc": "Entering the authorization number, approved CPT codes, and validity dates directly into your EHR scheduling system."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can your team handle urgent same-day prior authorizations?",
+        "a": "Yes. When an urgent prescription or emergent diagnostic procedure is ordered, our team marks it STAT and manages immediate phone and web portal escalation."
+      },
+      {
+        "q": "How does this coordinate with our existing front-desk staff?",
+        "a": "We operate as an extension of your front office. We do the heavy background lifting (hours spent on hold with payers and logging authorizations), so your in-office staff can focus 100% on greeting patients and clinic flow."
+      }
+    ]
+  }
+]

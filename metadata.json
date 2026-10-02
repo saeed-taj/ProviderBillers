@@ -1,0 +1,6 @@
+{
+  "name": "Provider Billers - US Medical Billing & RCM Agency",
+  "description": "Enterprise-grade medical billing, CPT/ICD-10 coding, zero-risk aged AR (>90 days) recovery, and credentialing for US healthcare practices.",
+  "version": "1.0.0",
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
