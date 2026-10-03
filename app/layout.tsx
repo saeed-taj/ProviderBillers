@@ -76,11 +76,23 @@ export const metadata: Metadata = {
       "Specialized US medical billing, CPT/ICD-10 coding, credentialing, and zero-risk aging AR recovery for private healthcare practices.",
     images: ["https://www.providerbillers.com/og-image.png"],
   },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-48.png",
-    apple: "/favicon-48.png",
+   icons: {
+    // 1. Standard browser tab icons (browser downloads the one it needs)
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' }, // Universal fallback
+    ],
+    // 2. Apple iOS Home Screen icon
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
+  
+  // 3. Connects the manifest file containing your 192px and 512px icons
+  manifest: '/site.webmanifest', // or '/manifest.json' depending on your filename
+
 };
 
 const jsonLd = {
