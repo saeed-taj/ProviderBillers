@@ -126,7 +126,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-3">
           <div className="relative h-11 w-44">
             <Image
-              src="/logo_final.png"
+              src="/assets/images/logo_final.png"
               alt="Provider Billers LLC"
               fill
               className="object-contain object-left"

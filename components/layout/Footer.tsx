@@ -50,7 +50,7 @@ export function Footer() {
             <Link href="/" className="inline-block">
               <div className="relative h-12 w-52 rounded-xl bg-white p-2 shadow-xs border border-slate-700">
                 <Image
-                  src="/logo_final.png"
+                  src="/assets/images/logo_final.png"
                   alt="Provider Billers LLC"
                   fill
                   className="object-contain p-1"
