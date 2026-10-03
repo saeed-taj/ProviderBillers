@@ -12,6 +12,8 @@ import {
 } from "lucide-react";
 
 export function Hero() {
+
+  
   return (
     <section className="relative overflow-hidden py-16 text-white sm:py-24 lg:py-28 min-h-[640px] flex items-center">
       {/* Background Image: Real Surgical Team in Operating Theater */}
