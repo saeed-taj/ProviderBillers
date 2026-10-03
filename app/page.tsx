@@ -360,7 +360,7 @@ export default function HomePage() {
             </p>
             <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="tel:+12096716993","
+                href="tel:+12096716993",
                 className="inline-flex items-center gap-2 rounded-xl bg-sky-900 px-6 py-3 text-sm font-bold text-white shadow-sm hover:bg-sky-800 transition-colors"
               >
                 <Phone className="h-4 w-4" />
