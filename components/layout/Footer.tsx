@@ -32,11 +32,11 @@ export function Footer() {
               <ArrowRight className="h-4 w-4" />
             </Link>
             <a
-              href="tel:+12026600030"
+              href="tel:+12026716993"
               className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-800/80 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-700 transition-colors"
             >
               <Phone className="h-4 w-4 text-sky-400" />
-              <span>(202) 660-0030</span>
+              <span>(202) 671-6993</span>
             </a>
           </div>
         </div>
@@ -50,7 +50,7 @@ export function Footer() {
             <Link href="/" className="inline-block">
               <div className="relative h-12 w-52 rounded-xl bg-white p-2 shadow-xs border border-slate-700">
                 <Image
-                  src="/logo.png"
+                  src="/logo_final.png"
                   alt="Provider Billers LLC"
                   fill
                   className="object-contain p-1"
@@ -70,8 +70,8 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-sky-400 shrink-0" />
-                <a href="tel:+12026600030" className="text-slate-300 hover:text-white transition-colors">
-                  (202) 660-0030
+                <a href="tel:+12026716993" className="text-slate-300 hover:text-white transition-colors">
+                  (202) 671-6993
                 </a>
               </div>
               <div className="flex items-center gap-3">

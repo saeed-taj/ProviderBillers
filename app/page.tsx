@@ -307,7 +307,7 @@ export default function HomePage() {
                   <Phone className="h-5 w-5 text-sky-400" />
                   <div>
                     <span className="text-xs text-slate-400">Direct Physician Inquiry Line:</span>
-                    <p className="text-base font-bold text-white">(202) 660-0030</p>
+                    <p className="text-base font-bold text-white">(209)-671-6993</p>
                   </div>
                 </div>
               </div>
@@ -360,11 +360,11 @@ export default function HomePage() {
             </p>
             <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="tel:+12026600030"
+                href="tel:+12096716993","
                 className="inline-flex items-center gap-2 rounded-xl bg-sky-900 px-6 py-3 text-sm font-bold text-white shadow-sm hover:bg-sky-800 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                <span>Call (202) 660-0030</span>
+                <span>Call (209)-671-6993 </span>
               </a>
               <Link
                 href="/contact"

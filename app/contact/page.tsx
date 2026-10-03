@@ -75,7 +75,7 @@ export default function ContactPage() {
               <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xs">
                 <div className="relative h-44 w-full">
                   <Image
-                    src="/assets/images/who_we_are.jpg"
+                    src="/assets/images/who_we_are.webp"
                     alt="Provider Billers Clinical Team in Richmond VA"
                     fill
                     className="object-cover"
@@ -110,10 +110,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-sm font-bold text-slate-900">Direct Telephone</h3>
                     <a
-                      href="tel:+12026600030"
+                      href="tel:+12026716993"
                       className="mt-1 block text-sm font-semibold text-sky-900 hover:underline"
                     >
-                      (202) 660-0030
+                      (202) 671-6993
                     </a>
                     <span className="text-[11px] text-slate-500">Toll-free nationwide</span>
                   </div>

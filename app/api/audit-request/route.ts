@@ -95,7 +95,7 @@ export async function POST(req: NextRequest) {
             </ul>
           </div>
           <p>
-            If you need urgent assistance, please do not hesitate to contact our headquarters directly at <a href="tel:+12026600030" style="color: #0284c7; font-weight: bold;">(202) 660-0030</a> or email <a href="mailto:support@providerbillers.com" style="color: #0284c7;">support@providerbillers.com</a>.
+            If you need urgent assistance, please do not hesitate to contact our headquarters directly at <a href="tel:+12096716993" style="color: #0284c7; font-weight: bold;">(202) 671-6993</a> or email <a href="mailto:support@providerbillers.com" style="color: #0284c7;">support@providerbillers.com</a>.
           </p>
           <p style="margin-top: 24px;">
             Warm regards,<br />

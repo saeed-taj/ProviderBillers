@@ -17,7 +17,7 @@ export function Hero() {
       {/* Background Image: Real Surgical Team in Operating Theater */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/images/main.jpg"
+          src="/assets/images/main.webp"
           alt="Provider Billers surgical and medical team"
           fill
           priority
@@ -94,7 +94,7 @@ export function Hero() {
                 href="tel:+12026600030"
                 className="font-bold text-white hover:text-sky-300 transition-colors underline decoration-sky-400/40"
               >
-                (202) 660-0030
+                (202) 671-6993
               </a>
             </div>
           </div>

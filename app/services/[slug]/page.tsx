@@ -123,11 +123,11 @@ export default async function ServiceDetailPage({ params }: Props) {
                   <span>Request Free 10-Claim Denial Audit</span>
                 </a>
                 <a
-                  href="tel:+12026600030"
+                  href="tel:+12026716993"
                   className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-800/80 px-5 py-3.5 text-sm font-semibold text-white hover:bg-slate-700 transition-colors"
                 >
                   <Phone className="h-4 w-4 text-sky-400" />
-                  <span>(202) 660-0030</span>
+                  <span>(202) 671-6993</span>
                 </a>
               </div>
             </div>
@@ -286,7 +286,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                   <Phone className="h-5 w-5 text-sky-400" />
                   <div>
                     <span className="text-xs text-slate-400">Speak directly with an RCM Director:</span>
-                    <p className="text-base font-bold text-white">(202) 660-0030</p>
+                    <p className="text-base font-bold text-white">(202) 671-6993</p>
                   </div>
                 </div>
               </div>

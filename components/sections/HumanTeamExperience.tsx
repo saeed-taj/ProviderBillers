@@ -24,7 +24,7 @@ export function HumanTeamExperience() {
   const cards = [
     {
       id: 1,
-      image: "/assets/images/aboutus1.jpg",
+      image: "/assets/images/aboutus1.webp",
       badge: "Physician Advocacy",
       title: "Senior AAPC Coder & Doctor Defense",
       subtitle: "Click or tap card to flip for protocol",
@@ -42,7 +42,7 @@ export function HumanTeamExperience() {
     },
     {
       id: 2,
-      image: "/assets/images/equal_size2.jpg",
+      image: "/assets/images/equal_size2.webp",
       badge: "Clinical Precision",
       title: "Radiology, Surgery & Complex Coding",
       subtitle: "Click or tap card to flip for protocol",
@@ -60,7 +60,7 @@ export function HumanTeamExperience() {
     },
     {
       id: 3,
-      image: "/assets/images/second.jpg",
+      image: "/assets/images/second.webp",
       badge: "Zero-Risk Recovery",
       title: "Aged AR Liquidation (&gt;90 Days)",
       subtitle: "Click or tap card to flip for protocol",
@@ -78,7 +78,7 @@ export function HumanTeamExperience() {
     },
     {
       id: 4,
-      image: "/assets/images/who_we_are.jpg",
+      image: "/assets/images/who_we_are.webp",
       badge: "Direct Partnership",
       title: "Your Richmond VA In-House Extension",
       subtitle: "Click or tap card to flip for protocol",
@@ -219,7 +219,7 @@ export function HumanTeamExperience() {
           <div className="grid gap-6 md:grid-cols-12 md:items-center">
             <div className="relative h-44 w-44 mx-auto rounded-2xl overflow-hidden md:col-span-3 border-2 border-sky-100 shadow-xs">
               <Image
-                src="/assets/images/aboutus1.jpg"
+                src="/assets/images/aboutus1.webp"
                 alt="Provider Billers Chief Medical Auditor"
                 fill
                 className="object-cover object-top"
@@ -245,11 +245,11 @@ export function HumanTeamExperience() {
                 </div>
                 <div className="flex items-center gap-2">
                   <a
-                    href="tel:+12026600030"
+                    href="tel:+12026716993"
                     className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-900 hover:text-sky-700"
                   >
                     <PhoneCall className="h-3.5 w-3.5 text-sky-700" />
-                    <span>Direct Desk: (202) 660-0030</span>
+                    <span>Direct Desk: (202) 671-6993</span>
                   </a>
                 </div>
               </div>

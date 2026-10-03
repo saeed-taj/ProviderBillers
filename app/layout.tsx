@@ -88,9 +88,9 @@ const jsonLd = {
   "@type": "ProfessionalService",
   "name": "Provider Billers LLC",
   "url": "https://www.providerbillers.com",
-  "logo": "https://www.providerbillers.com/logo.png",
+  "logo": "https://www.providerbillers.com/logo_final.png",
   "image": "https://www.providerbillers.com/og-image.png",
-  "telephone": "+1-202-660-0030",
+  "telephone": "+1 (209) 671-6993",
   "email": "support@providerbillers.com",
   "address": {
     "@type": "PostalAddress",

@@ -110,11 +110,11 @@ export function Navbar() {
               Speak with a Senior RCM Director:
             </span>
             <a
-              href="tel:+12026600030"
+              href="tel:+12026716993"
               className="inline-flex items-center gap-1.5 font-bold text-white hover:text-sky-300 transition-colors"
             >
               <Phone className="h-3.5 w-3.5 text-sky-400" />
-              <span>(202) 660-0030</span>
+              <span>(202) 671-6993</span>
             </a>
           </div>
         </div>
@@ -126,7 +126,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-3">
           <div className="relative h-11 w-44">
             <Image
-              src="/logo.png"
+              src="/logo_final.png"
               alt="Provider Billers LLC"
               fill
               className="object-contain object-left"

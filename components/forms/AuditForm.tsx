@@ -70,7 +70,7 @@ export function AuditForm({
       if (err instanceof Error) {
         setErrorMessage(err.message);
       } else {
-        setErrorMessage("An unexpected error occurred. Please contact us directly at (202) 660-0030.");
+        setErrorMessage("An unexpected error occurred. Please contact us directly at (202) 671-6993.");
       }
     } finally {
       setIsSubmitting(false);
@@ -132,10 +132,10 @@ export function AuditForm({
           </button>
           <span className="hidden text-slate-300 sm:inline">•</span>
           <a
-            href="tel:+12026600030"
+            href="tel:+12026716993"
             className="text-xs font-semibold text-slate-700 hover:text-sky-900"
           >
-            Need urgent assistance? Call (202) 660-0030
+            Need urgent assistance? Call (202) 671-6993
           </a>
         </div>
       </div>
