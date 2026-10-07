@@ -93,10 +93,10 @@ export function Hero() {
                 Questions? Call our Richmond VA billing desk:
               </span>
               <a
-                href="tel:+12026600030"
+                href="tel:+12096600030"
                 className="font-bold text-white hover:text-sky-300 transition-colors underline decoration-sky-400/40"
               >
-                (202) 671-6993
+                (209) 671-6993
               </a>
             </div>
           </div>
