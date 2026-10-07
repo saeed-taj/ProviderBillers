@@ -110,11 +110,11 @@ export function Navbar() {
               Speak with a Senior RCM Director:
             </span>
             <a
-              href="tel:+12026716993"
+              href="tel:+12096716993"
               className="inline-flex items-center gap-1.5 font-bold text-white hover:text-sky-300 transition-colors"
             >
               <Phone className="h-3.5 w-3.5 text-sky-400" />
-              <span>(202) 671-6993</span>
+              <span>(209) 671-6993</span>
             </a>
           </div>
         </div>

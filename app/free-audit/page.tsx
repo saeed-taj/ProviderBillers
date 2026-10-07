@@ -173,11 +173,11 @@ export default async function FreeAuditPage({ searchParams }: Props) {
                   Call our Richmond VA headquarters directly to discuss your practice’s specialty and billing challenges:
                 </p>
                 <a
-                  href="tel:+12026716993"
+                  href="tel:+12096716993"
                   className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-sky-950 hover:underline"
                 >
                   <Phone className="h-4 w-4 text-sky-700" />
-                  <span>(202) 671-6993</span>
+                  <span>(209) 671-6993</span>
                 </a>
               </div>
             </div>

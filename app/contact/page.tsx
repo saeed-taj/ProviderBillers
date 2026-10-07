@@ -110,10 +110,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-sm font-bold text-slate-900">Direct Telephone</h3>
                     <a
-                      href="tel:+12026716993"
+                      href="tel:+12096716993"
                       className="mt-1 block text-sm font-semibold text-sky-900 hover:underline"
                     >
-                      (202) 671-6993
+                      (209) 671-6993
                     </a>
                     <span className="text-[11px] text-slate-500">Toll-free nationwide</span>
                   </div>

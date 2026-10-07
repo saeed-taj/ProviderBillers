@@ -77,7 +77,7 @@ export default async function SpecialtyDetailPage({ params }: Props) {
     "provider": {
       "@type": "ProfessionalService",
       "name": "Provider Billers LLC",
-      "telephone": "+1-202-671-6993",
+      "telephone": "+1-209-671-6993",
       "url": "https://www.providerbillers.com",
     },
     "description": specialty.summary,
@@ -131,11 +131,11 @@ export default async function SpecialtyDetailPage({ params }: Props) {
                   <span>Request Free 10-Claim {specialty.shortName} Audit</span>
                 </a>
                 <a
-                  href="tel:+1202671-6993"
+                  href="tel:+1209671-6993"
                   className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-800/80 px-5 py-3.5 text-sm font-semibold text-white hover:bg-slate-700 transition-colors"
                 >
                   <Phone className="h-4 w-4 text-sky-400" />
-                  <span>(202) 671-6993</span>
+                  <span>(209) 671-6993</span>
                 </a>
               </div>
             </div>

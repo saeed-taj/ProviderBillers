@@ -245,11 +245,11 @@ export function HumanTeamExperience() {
                 </div>
                 <div className="flex items-center gap-2">
                   <a
-                    href="tel:+12026716993"
+                    href="tel:+12096716993"
                     className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-900 hover:text-sky-700"
                   >
                     <PhoneCall className="h-3.5 w-3.5 text-sky-700" />
-                    <span>Direct Desk: (202) 671-6993</span>
+                    <span>Direct Desk: (209) 671-6993</span>
                   </a>
                 </div>
               </div>
